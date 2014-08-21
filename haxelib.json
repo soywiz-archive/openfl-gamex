@@ -1,13 +1,14 @@
 {
   "name": "openfl-gamex",
   "url": "https://github.com/soywiz/openfl-gamex",
+  "user": "soywiz",
   "license": "MIT",
   "tags": ["openfl", "android", "admob"],
   "description": "Game Extensions for openfl: admob",
   "version": "0.0.1",
   "releasenote": "",
-  "contributors": [""],
+  "contributors": ["soywiz"],
   "dependencies": {
-
+    "promhx": ""
   }
 }
