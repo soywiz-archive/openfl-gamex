@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<!--
+	<ndll name="sampleextension" if="ios" />
+	-->
+    <!--
+    <ndll name="iap" if="ios" />
+    <dependency name="StoreKit.framework" if="ios" />
+    -->
+
+	<haxelib name="promhx" />
+
+	<dependency name="gamex" path="dependencies/android" if="android" />
+	<android extension="com.soywiz.openfl.gamex.GamexExtension" />
+	
+</project>
