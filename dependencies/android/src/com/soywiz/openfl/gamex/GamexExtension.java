@@ -3,7 +3,10 @@ package com.soywiz.openfl.gamex;
 
 import android.content.Intent;
 import android.graphics.Color;
+import android.opengl.GLSurfaceView;
 import android.os.Bundle;
+import android.view.ViewGroup;
+import android.widget.FrameLayout;
 import android.widget.RelativeLayout;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdSize;
@@ -107,6 +110,12 @@ public class GamexExtension extends Extension {
 				if (mainActivity == null) {
 					return;
 				}
+
+				FrameLayout rootLayout = new FrameLayout(mainActivity);
+				mainActivity.setContentView(rootLayout);
+				adLayout = new RelativeLayout(mainActivity);
+				rootLayout.addView(mainView);
+				rootLayout.addView(adLayout);
 
 				adView = new AdView(mainActivity);
 				adView.setAdUnitId(adID);
