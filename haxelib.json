@@ -5,10 +5,9 @@
   "license": "MIT",
   "tags": ["openfl", "android", "admob"],
   "description": "Game Extensions for openfl: admob",
-  "version": "0.0.1",
-  "releasenote": "",
+  "version": "0.0.2",
+  "releasenote": "0.0.2 - Fixes admob. Now it should work propertly.",
   "contributors": ["soywiz"],
   "dependencies": {
-    "promhx": ""
   }
 }
